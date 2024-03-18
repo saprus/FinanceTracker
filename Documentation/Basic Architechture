@@ -1,0 +1,33 @@
+Basic Architechture
+
+- Monolithic App to start with
+
+- Backend  -> Springboot, Spring Web, Data JPA, Security
+- Database -> PostgreSQL, MySQL
+- Security -> Spring Security, authentication (login/logout), authorization (access based on roles)
+- RESTful  -> Apply REST API as interface for frontend or for clients to interact with your application
+		   -> Handle Requests for creating accounts, logging in, recording transactions, and retrieving user data 
+
+- Document -> Swagger for documenting RESTful API
+- Deploy   -> Test locally, deploy to cloud provider like Heroku
+
+
+Basic Components/Services:
+
+- User Management
+- Transaction Management 
+- Budget Management
+- Text Message automation for expense - python
+
+
+
+USER MANAGEMENT:
+
+	Endpoints:
+
+	POST /register: Register a new user.
+	POST /login: Authenticate a user and start a session.
+	GET /profile: Retrieve the authenticated user's profile.
+	PUT /profile: Update the authenticated user's profile.
+
+	
